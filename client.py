@@ -5,7 +5,7 @@ import chess
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 
 # Obtém o nome da máquina local
-host = '192.168.148.24'
+host = 'localhost'
 
 port = 9999
 board = chess.Board()
